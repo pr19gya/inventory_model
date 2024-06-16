@@ -86,7 +86,7 @@ const CrudComponent = () => {
  
 
   return (
-    <div className='bg-[#2a1b3d] h-full  text-center '>
+    <div className='bg-[#2a1b3d] h-screen  text-center '>
       <div className='text-gray-300 text-8xl p-[5rem] pb-[3rem]'> Item List</div>
       <div className='w-full flex p-10 text-center justify-center'>
       <form onSubmit={handleItemFormSubmit}>

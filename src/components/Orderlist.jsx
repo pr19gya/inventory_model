@@ -58,7 +58,7 @@ const CrudComponent = () => {
   };
 
   return (
-    <div className='bg-[#2a1b3d] h-screen text-center leading-loose '>
+    <div className='bg-[#2a1b3d] h-full text-center leading-loose '>
      
 
       <div className='text-gray-300 text-8xl p-[5rem] pb-[3rem]'> Order List</div>
