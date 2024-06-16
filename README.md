@@ -1,8 +1,13 @@
-# React + Vite
+This project implements a CRUD (Create, Read, Update, Delete) functionality for managing items and viewing orders. It's built using React and manages data with localStorage or from a JSON file.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+CRUD Operations for Items:
 
-Currently, two official plugins are available:
+Add new items.
+Edit existing items.
+Delete items.
+Order Details:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Display orders with customer details, items, and status.
+Filter orders by status (All, Pending, Completed).
+Mark pending orders as completed.
